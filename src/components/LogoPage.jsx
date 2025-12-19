@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./styles/LogoPage.module.css";
-import Logo from "../assets/Logo.mp4";
+import Logo from "../assets/Logo1.mp4";
 
 function LogoPage({ onFinish }) {
   const [fadeOut, setFadeOut] = useState(false);
