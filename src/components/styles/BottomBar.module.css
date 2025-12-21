@@ -1,0 +1,98 @@
+.main{
+    position: fixed;
+    bottom: 20px;
+    min-width: 1400px;
+    min-height:50px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid transparent;
+    box-shadow: 0px -3px 3px rgb(194, 192, 192);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main .menu{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5px;
+  display: grid;
+  grid-template-columns: 950px 1fr;
+}
+.main .menu .menu1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    gap: 15px;
+}
+  
+.main .menu .menu2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main .menu .menu2 section{
+    padding: 15px;
+    height: 20px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #c7cac7 40%, #c7ca05 40%,#e7db33 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.main .menu .menu2 section i{
+    margin-right: 8px;
+}
+.main .menu span{
+    width:130px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    color: rgb(90, 89, 89);
+    cursor: pointer;
+}
+.main .menu span:nth-child(1)::after{
+    content: "India Tour";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Enriqueta", serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap; 
+}
+.main .menu span:nth-child(2)::after{
+    content: "International Tour";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Enriqueta", serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap; 
+}
+.main .menu span:nth-child(3)::after{
+    content: "Wedding Location";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Enriqueta", serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+section:hover{
+    box-shadow: 1px 1px 6px rgb(17, 17, 17);
+}
+section:active{
+    transform: scale(1.03);
+}
