@@ -1,0 +1,42 @@
+{
+    "images":[
+        {"pic":"/data/assets1/img1.jpg"},
+        {"pic":"/data/assets1/img2.jpg"},
+        {"pic":"/data/assets1/img3.jpg"},
+        {"pic":"/data/assets1/img4.jpg"},
+        {"pic":"/data/assets1/img5.jpg"},
+        {"pic":"/data/assets1/img6.jpg"}
+    ],
+    "card":[
+        {
+            "title":"WildLife",
+            "packages":"70+packages",
+            "icon":"/data/assets1/lion.png"
+        },
+        {
+            "title":"Heritage",
+            "packages":"50+packages",
+            "icon":"/data/assets1/heritage.png"
+        },
+        {
+            "title":"Trekking",
+            "packages":"40+packages",
+            "icon":"/data/assets1/backpack.png"
+        },
+        {
+            "title":"Temples",
+            "packages":"70+packages",
+            "icon":"/data/assets1/temple.png"
+        },
+        {
+            "title":"Hill Station",
+            "packages":"50+packages",
+            "icon":"/data/assets1/mountain.png"
+        },
+        {
+            "title":"Beachs",
+            "packages":"100+packages",
+            "icon":"/data/assets1/beach.png"
+        }
+    ]
+}
