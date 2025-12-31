@@ -18,9 +18,9 @@ function App() {
     setShowHome(true);
   };
 
-  return <>
+  return <div>
   {showHome ? <Home /> : <LogoPage onFinish={handleLogoFinish} />}
-  </>;
+  </div>;
 }
 
 export default App;

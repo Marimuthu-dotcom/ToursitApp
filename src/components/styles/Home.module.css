@@ -2,11 +2,15 @@
     width:100%;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
+    overflow: visible;
 }
 .innerHome{
     background-color:rgb(255, 255, 255);
+    width: 100%;
     max-width: 1400px;
     min-height: 100vh;
+    overflow: visible;
 }
 
 

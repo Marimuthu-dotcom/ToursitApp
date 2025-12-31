@@ -16,6 +16,9 @@ function Package({ cards, startIndex, itemsPerPage }){
                 <img src={item.icon} alt={item.title} />
               </span>
             </div>
+            <div className={styles.images}>
+                <img src={item.pics}/>
+            </div>
           </div>
         ))}
         </div>

@@ -11,32 +11,249 @@
         {
             "title":"WildLife",
             "packages":"70+packages",
-            "icon":"/data/assets1/lion.png"
+            "icon":"/data/assets1/lion.png",
+            "pics":"/data/assets1/zoo.jpg"
         },
         {
             "title":"Heritage",
             "packages":"50+packages",
-            "icon":"/data/assets1/heritage.png"
+            "icon":"/data/assets1/heritage.png",
+            "pics":"/data/assets1/heritages.jpg"
         },
         {
             "title":"Trekking",
             "packages":"40+packages",
-            "icon":"/data/assets1/backpack.png"
+            "icon":"/data/assets1/backpack.png",
+            "pics":"/data/assets1/treeking.jpg"
         },
         {
             "title":"Temples",
             "packages":"70+packages",
-            "icon":"/data/assets1/temple.png"
+            "icon":"/data/assets1/temple.png",
+            "pics":"/data/assets1/temples.jpg"
         },
         {
             "title":"Hill Station",
             "packages":"50+packages",
-            "icon":"/data/assets1/mountain.png"
+            "icon":"/data/assets1/mountain.png",
+            "pics":"/data/assets1/hills.jpg"
         },
         {
             "title":"Beachs",
             "packages":"100+packages",
-            "icon":"/data/assets1/beach.png"
+            "icon":"/data/assets1/beach.png",
+            "pics":"/data/assets1/beaches.jpg"
         }
+    ],
+    "places":[
+        {
+          "north":[
+             {
+                "pic":"/data/assets1/UttarKhand.jpg",
+                "place":"UttarKhand",
+                "pack":"45+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Rajasthan.jpg",
+                "place":"Rajasthan",
+                "pack":"35+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Himachal.jpg",
+                "place":"Himachal Pradesh",
+                "pack":"45+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Kashmir.jpg",
+                "place":"Kashmir",
+                "pack":"30+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Uttar Pradesh.jpg",
+                "place":"Uttar Pradesh",
+                "pack":"40+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Delhi.jpg",
+                "place":"New Delhi",
+                "pack":"45+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Ladakh.jpg",
+                "place":"Ladakh",
+                "pack":"45+ Packeges"
+             }
+          ]
+        },
+        {
+          "south":[
+                 {
+                "pic":"/data/assets1/Kerala.jpg",
+                "place":"Kerala",
+                "pack":"55+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/temples.jpg",
+                "place":"Tamilnadu",
+                "pack":"50+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Karnataka.jpg",
+                "place":"Karnataka",
+                "pack":"50+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Andaman.jpg",
+                "place":"Andaman",
+                "pack":"35+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Puducherry.jpg",
+                "place":"Puducherry",
+                "pack":"40+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Andhara.jpg",
+                "place":"Andhara Pradesh",
+                "pack":"45+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Telangana.jpg",
+                "place":"Ladakh",
+                "pack":"45+ Packeges"
+             }
+          ]
+        },
+        {
+          "east":[
+               {
+                "pic":"/data/assets1/Sikkim.jpg",
+                "place":"Sikkim",
+                "pack":"50+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Arunachal.jpg",
+                "place":"Arunachal",
+                "pack":"50+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Meghalaya.jpg",
+                "place":"Meghalaya",
+                "pack":"50+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Nagaland.jpg",
+                "place":"Nagaland",
+                "pack":"40+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Assam.jpg",
+                "place":"Assam",
+                "pack":"45+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Odisha.jpg",
+                "place":"Odisha",
+                "pack":"40+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/West Bengal.jpg",
+                "place":"West Bengal",
+                "pack":"30+ Packeges"
+             }
+          ]
+        },
+        {
+         "west":[
+              {
+                "pic":"/data/assets1/Goa.jpg",
+                "place":"Goa",
+                "pack":"50+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Gujarat.jpg",
+                "place":"Gujarat",
+                "pack":"50+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Mumbai.jpg",
+                "place":"Mumbai",
+                "pack":"45+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Daman.jpg",
+                "place":"Daman",
+                "pack":"40+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Bhopal.jpg",
+                "place":"Bhopal",
+                "pack":"40+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/GIR.jpg",
+                "place":"Gir Park",
+                "pack":"40+ Packeges"
+             },
+             {
+                "pic":"/data/assets1/Pune.jpg",
+                "place":"Pune",
+                "pack":"40+ Packeges"
+             }
+          ]
+        }
+
+    ],
+    "country":[
+      {
+        "book":"/data/assets1/Switzerland.jpg",
+        "countries":"Switzerland",
+        "Pack":"55+ Package"
+      },
+      {
+       "book":"/data/assets1/Malaysia.jpg",
+        "countries":"Malaysia",
+        "Pack":"45+ Package"
+      },
+      {
+       "book":"/data/assets1/Singapore.jpg",
+        "countries":"Singapore",
+        "Pack":"45+ Package"
+      },
+      {
+       "book":"/data/assets1/Dubai.jpg",
+        "countries":"Dubai",
+        "Pack":"55+ Package"
+      },
+      {
+        "book":"/data/assets1/India.jpg",
+        "countries":"India",
+        "Pack":"50+ Package"
+      },
+      {
+        "book":"/data/assets1/Srilanka.jpg",
+        "countries":"Srilanka",
+        "Pack":"30+ Package"
+      },
+      {
+        "book":"/data/assets1/Island.jpg",
+        "countries":"Island",
+        "Pack":"30+ Package"
+      },
+      {
+        "book":"/data/assets1/Maldives.jpg",
+        "countries":"Maldives",
+        "Pack":"30+ Package"
+      },
+      {
+        "book":"/data/assets1/Thailand.jpg",
+        "countries":"Thailand",
+        "Pack":"35+ Package"
+      },
+      {
+        "book":"/data/assets1/New Zealand.jpg",
+        "countries":"New Zealand",
+        "Pack":"40+ Package"
+      }
     ]
 }
