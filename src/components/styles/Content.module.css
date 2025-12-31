@@ -340,7 +340,7 @@
     height: 380px;
     display: flex;
     align-items: center;
-    padding:0px 20px;
+    padding:1px 20px;
     column-gap: 30px;
     background-color:red;
 }
