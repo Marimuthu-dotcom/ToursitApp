@@ -115,6 +115,7 @@
     box-shadow: 0px 0px 5px rgba(184, 184, 182, 0.534);
     display: grid;
     grid-template-rows: 70px 1fr;
+    cursor: pointer;
 }
 .varity .list .item .images{
     width: 100%;
@@ -277,6 +278,7 @@
     height:100%;
     object-fit: cover;
     border-radius: 10px;
+    cursor: pointer;
 }
 .list1 .detail,.list2 .detail{
     position: absolute;
@@ -306,6 +308,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
+    padding-top: 20px;
 }
 
 .names .h1 {
@@ -318,7 +321,7 @@
 }
 
 .names .h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: "Enriqueta", serif;
     font-weight: 700;
     color: rgb(248, 116, 8);
@@ -326,30 +329,30 @@
 }
 .region .loca2{
     height: 100%;
-    padding:8px;
+    padding:1px;
 }
 .region .loca2 .places{
     min-height:420px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    
 }
 .places .list{
     flex:1;
     height: 380px;
     display: flex;
     align-items: center;
-    padding:1px 20px;
+    padding:0px 20px;
     column-gap: 30px;
-    background-color:red;
 }
 .list .tours{
     width: 220px;
     height: 330px;
     border-radius: 10px;
     display: grid;
-    grid-template-rows: 240px 1fr;
+    grid-template-rows: 260px 1fr;
+    cursor: pointer;
 }
 .tours .images{
     width:100%;
@@ -371,6 +374,7 @@
 .tours .details p{
     padding-left: 5px;
     line-height: 1.500;
+    color: rgb(67,67,67);
 }
 .region .loca2 .pages{
     min-height: 50px;
@@ -381,6 +385,7 @@
 .pages .btns{
    display: flex;
    column-gap: 70px;
+   cursor: pointer;
 }
 .pages .btns i{
     font-size: 2.2rem;
