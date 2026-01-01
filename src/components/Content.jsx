@@ -2,6 +2,7 @@ import styles from "./styles/Content.module.css";
 import Package from "./Package";
 import PlaceSuggest from "./PlaceSuggest";
 import PlaceList from "./PlaceList";
+import PackageList from "./PackageList";
 import { useState,useEffect } from "react";
 function Content() {
     const [images, setImages] = useState([]);
@@ -15,6 +16,9 @@ function Content() {
     const [animatePkg,setAnimatePkg]=useState(true);
     const [animatePlace,setAnimatePlace]=useState(true);
     const [animateImg, setAnimateImg] = useState(true);
+    const [packages,setPackages]=useState([]);
+    const [activeBtn,setActiveBtn]=useState(0);
+    const [animatePack,setAnimatePack]=useState(true);
     const itemsPerPage = 3;
     const boxPerPage=5;
     const packList=["WildLife","Hill Station","Temples","Heritage","Beach","Honeymoon","Adventure","Trekking"];
@@ -25,6 +29,7 @@ function Content() {
                           setCards(data.card)
                           setPlaces(data.places)
                           setCountry(data.country)
+                          setPackages(data.Packages);
                         });
     }, []);
     useEffect(() => {
@@ -87,7 +92,14 @@ const handleRegionClick = (i) => {
     setAnimateImg(true);
   }, 200);
 };
-
+ 
+const handlePackClick=(i)=>{
+  setAnimatePack(false);
+  setTimeout(()=>{
+    setActiveBtn(i);
+    setAnimatePack(true);
+  },200);
+};
   
     return(
         <main>
@@ -179,13 +191,21 @@ const handleRegionClick = (i) => {
                             <span className={styles.span1}><h1 className={styles.h1}>Packages By Interest</h1></span>
                             <span className={styles.span2}>
                                 {packList.map((pack,i)=>(
-                                 <button className={styles.packName} key={i}>
+                                 <button className={`${styles.packName}  ${activeBtn===i?styles.activebtn:""}`} key={i} onClick={()=>handlePackClick(i)}>
                                      {pack}
                                  </button>))
                                 }
                             </span>
                           </div>
-                          <div className={styles.packs}>Mari</div>
+                          <div className={styles.packs}>
+                            <div className={`${styles.box} ${animatePack ?styles.slideFade:""}`}>
+                                {packages.length > 0 && packages[activeBtn] && (
+                                        <PackageList
+                                        data={Object.values(packages[activeBtn])[0]}
+                                    />
+                                    )}
+                            </div>
+                            </div>
                        </div>
                     </section>
             </div>

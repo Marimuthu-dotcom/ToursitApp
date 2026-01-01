@@ -353,7 +353,7 @@
               "time":"11 Nights - 12 Days"
             },
             {
-              "pic":"/data/assets1/Temple1 (2)..jpg",
+              "pic":"/data/assets1/Temple1 (2).jpg",
               "name":"Shaolin Temple",
               "time":"11 Nights - 12 Days"
             },
@@ -363,27 +363,27 @@
               "time":"10 Nights - 11 Days"
             },
             {
-              "pic":"/data/assets1/Temple1 (4)..jpg",
+              "pic":"/data/assets1/Temple1 (4).jpg",
               "name":"Mahabodhi Temple",
               "time":"15 Nights - 16 Days"
             },
             {
-              "pic":"/data/assets1/Temple1 (5)..jpg",
+              "pic":"/data/assets1/Temple1 (5).jpg",
               "name":"Lama Temple",
               "time":"3 Nights - 4 Days"
             },
             {
-              "pic":"/data/assets1/Temple1 (6)..jpg",
+              "pic":"/data/assets1/Temple1 (6).jpg",
               "name":"Krishna Temple",
               "time":"6 Nights - 7 Days"
             },
             {
-              "pic":"/data/assets1/Temple1 (7)..jpg",
+              "pic":"/data/assets1/Temple1 (7).jpg",
               "name":"Jagannath Temple ",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Temple1 (8)..jpg",
+              "pic":"/data/assets1/Temple1 (8).jpg",
               "name":"ISKCON Temple",
               "time":"3 Nights - 4 Days"
             }
@@ -436,87 +436,87 @@
       {
          "Beach":[
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Beach (1).jpg",
+              "name":"Waikiki Beach",
+              "time":"19 Nights - 20 Days"
+            },
+            {
+              "pic":"/data/assets1/Beach (2).jpg",
+              "name":"Bondi Beach",
+              "time":"16 Nights - 17 Days"
+            },
+            {
+              "pic":"/data/assets1/Beach (3).jpg",
+              "name":"Malibu Beach",
+              "time":"14 Nights - 15 Days"
+            },
+            {
+              "pic":"/data/assets1/Beach (4).jpg",
+              "name":"Bora Bora Beach",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Beach (5).jpg",
+              "name":"Navagio Beach",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Beach (6).jpg",
+              "name":"Maya Beach",
+              "time":"7 Nights - 8 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Beach (7).jpg",
+              "name":"Nacpan Beach",
+              "time":"8 Nights - 9 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
-            },
-            {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
-            },
-            {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
-            },
-            {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Beach (8).jpg",
+              "name":"Tulum Beach",
+              "time":"12 Nights - 13 Days"
             }
          ]
       },
       {
          "Honeymoon":[
              {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Honeymoon (1).jpg",
+              "name":"Vienna Tour",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Honeymoon (2).jpg",
+              "name":"Phuket Tour",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Honeymoon (3).jpg",
+              "name":"Paris Tour",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Honeymoon (4).jpg",
+              "name":"Prague Tour",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Honeymoon (5).jpg",
+              "name":"Mauritius Tour",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Honeymoon (6).jpg",
+              "name":"Venice Tour",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Honeymoon (7).jpg",
+              "name":"Bali Tour",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Honeymoon (8).webp",
+              "name":"Manali Tour",
               "time":"13 Nights - 14 Days"
             }
          ]
@@ -524,87 +524,87 @@
       {
          "Adventure":[ 
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Adventure (1).webp",
+              "name":"Garhwal",
+              "time":"11 Nights - 12 Days"
+            },
+            {
+              "pic":"/data/assets1/Adventure (2).webp",
+              "name":"Himichal",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Adventure (3).webp",
+              "name":"Ladakh",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Adventure (4).webp",
+              "name":"kumaon",
+              "time":"15 Nights - 16 Days"
+            },
+            {
+              "pic":"/data/assets1/Adventure (5).webp",
+              "name":"Sikkim",
+              "time":"10 Nights - 11 Days"
+            },
+            {
+              "pic":"/data/assets1/Adventure (6).webp",
+              "name":"Manali",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Adventure (7).webp",
+              "name":"Manali Jeep Safari",
+              "time":"11 Nights - 12 Days"
             },
             {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
-            },
-            {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
-            },
-            {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
-            },
-            {
-              "pic":"/data/assets1/Andaman.jpg",
-              "name":"Andaman",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Adventure (8).webp",
+              "name":"Himilayan",
+              "time":"18 Nights - 19 Days"
             }
          ]
       },
       {
          "Trekking":[
             {
-              "pic":"/data/assets1/Moscow Zoo.jpg",
-              "name":"Moscow Zoo",
+              "pic":"/data/assets1/Trekking (1).jpg",
+              "name":"Inca trail",
+              "time":"10 Nights - 11 Days"
+            },
+            {
+              "pic":"/data/assets1/Trekking (2).jpg",
+              "name":"Mount Fuji Trek",
               "time":"13 Nights - 14 Days"
             },
             {
-              "pic":"/data/assets1/Mysuru Zoo.jpg",
-              "name":"Mysuru Zoo",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Trekking (3).jpg",
+              "name":"Overland track",
+              "time":"11 Nights - 12 Days"
             },
             {
-              "pic":"/data/assets1/Singapore Zoo.jpg",
-              "name":"Singapore Zoo",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Trekking (4).jpg",
+              "name":"Torres Trek",
+              "time":"18 Nights - 19 Days"
             },
             {
-              "pic":"/data/assets1/Taronga Zoo.jpg",
-              "name":"Taronga Zoo",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Trekking (5).jpg",
+              "name":"Atlas Trek",
+              "time":"23 Nights - 24 Days"
             },
             {
-              "pic":"/data/assets1/Alipore Zoo.jpg",
-              "name":"Alipore Zoo",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Trekking (6).jpg",
+              "name":"Camino trek",
+              "time":"16 Nights - 17 Days"
             },
             {
-              "pic":"/data/assets1/Chiang Mai Zoo.jpg",
-              "name":"Chiang Mai Zoo",
-              "time":"13 Nights - 14 Days"
+              "pic":"/data/assets1/Trekking (7).jpg",
+              "name":"Pokhara Trek",
+              "time":"20 Nights - 21 Days"
             },
             {
-              "pic":"/data/assets1/Zoo Negara.jpg",
-              "name":"Zoo Negara",
-              "time":"13 Nights - 14 Days"
-            },
-            {
-              "pic":"/data/assets1/London Zoo.jpg",
-              "name":"Andaman",
+              "pic":"/data/assets1/Trekking (8).jpg",
+              "name":"Toubkal trak",
               "time":"13 Nights - 14 Days"
             }
          ]
