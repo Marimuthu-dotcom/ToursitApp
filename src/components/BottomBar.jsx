@@ -5,7 +5,7 @@ import Wedding from "../assets/wedding.png";
 function BottomBar(){
     return(
         <nav>
-        <div className={styles.main}>
+        <div style={{display:"none"}} className={styles.main}>
           <div className={styles.menu}>
             <div className={styles.menu1}>
             <span><img src={India}/></span>

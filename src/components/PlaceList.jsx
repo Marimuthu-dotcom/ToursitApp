@@ -1,11 +1,9 @@
 import styles from "./styles/Content.module.css";
-
-function PlaceList({city,list,boxPerPage}) {
+function PlaceList({city,list,boxPerPage,animate}) {
   if (!city || city.length === 0) 
     return null;
-
   return (
-    <div className={styles.list}>
+    <div className={`${styles.list} ${animate ?styles.slideFade:""}`}>
       {city.slice(list, list + boxPerPage).map((item, i) => (
 
         <div className={styles.tours} key={i}>

@@ -1,7 +1,7 @@
 import styles from "./styles/Content.module.css"
-function Package({ cards, startIndex, itemsPerPage }){
+function Package({ cards, startIndex, itemsPerPage,animate }){
     return(
-        <div className={styles.list}>
+        <div className={`${styles.list} ${animate?styles.slideFade:""}`}>
             {cards
         .slice(startIndex, startIndex + itemsPerPage)
         .map((item, i) => (
@@ -25,3 +25,4 @@ function Package({ cards, startIndex, itemsPerPage }){
     );
 }
 export default Package
+

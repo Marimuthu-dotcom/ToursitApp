@@ -8,6 +8,8 @@
     box-shadow: none;
 }
 .container1{
+    width: 100%;
+    max-width: 1400px;
     min-height: 480px;
     display: grid;
     grid-template-columns: 350px 1fr;
@@ -17,7 +19,7 @@
 }
 .Box1{
     width: 100%;
-    height: 480px;
+    min-height: 480px;  
     background-color: transparent;
     position: relative;
     overflow: hidden;
@@ -27,6 +29,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
     position: absolute;
     inset: 0;
     opacity: 0;
@@ -43,7 +46,7 @@
 .Box2 .intro,.Box2 .varity{
     height:45%;
     padding-left: 20px;
-     outline: none;
+    outline: none;
     border: none;
     box-shadow: none;
     -webkit-tap-highlight-color: transparent;
@@ -150,19 +153,16 @@
     height: 100%;
     object-fit: contain;
 }
-.varity .list .item .images img{
-     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
 .container2{
     margin-top: 6rem;
     width: 100%;
-    min-height: 2100px;
+    max-width: 1400px;
     display: grid;
-    grid-template-rows: repeat(3,minmax(700px,auto));
-    row-gap: 30px;
+    grid-template-rows:
+    minmax(700px, auto)
+    minmax(700px, auto)
+    minmax(530px, auto);
+    row-gap: 20px;
 }
 .container2 section{
   transform: none !important;
@@ -170,10 +170,10 @@
   transition: none !important;
   outline: none !important;
 }
-.container2 .Boxs1{
+.container2 .Boxs1,.container2 .Boxs3{
     padding: 8px;
 }
-.Boxs1 .region,.Boxs2 .region{
+.Boxs1 .region,.Boxs2 .region,.Boxs3 .region{
     height: 100%;
     background-color: white;
     display: grid;
@@ -244,9 +244,6 @@
 .d4 span.active{
     color:rgb(1, 1, 65);
 }
-.loca .img{
-    padding: 10px;
-}
 .img .list{
     background-color: white;
     display: grid;
@@ -272,13 +269,6 @@
   background-color: white;
   border-radius: 10px;
   position: relative;
-}
-.list1 img,.list2 img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    border-radius: 10px;
-    cursor: pointer;
 }
 .list1 .detail,.list2 .detail{
     position: absolute;
@@ -311,7 +301,7 @@
     padding-top: 20px;
 }
 
-.names .h1 {
+.names .h1 ,.region .title .span1 .h1{
     font-family: "Enriqueta", serif;
     font-size: 3rem;
     font-weight: 700;
@@ -319,7 +309,6 @@
     letter-spacing: 5px;
     padding-left: 15px;
 }
-
 .names .h3 {
     font-size: 1.4rem;
     font-family: "Enriqueta", serif;
@@ -358,11 +347,16 @@
     width:100%;
     height: 100%;
 }
-.tours .images img{
+.tours .images img,.item .images img,.list1 img,.list2 .places img{
     width:100%;
     height:100%;
     object-fit:cover;
     border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease; /* smooth zoom */
+}
+.tours .images img:hover,.item .images img:hover,.list1 img:hover,.list2 .places img:hover{
+    transform: scale(1.05);
 }
 .tours .details{
     border-radius: 10px;
@@ -387,11 +381,67 @@
    column-gap: 70px;
    cursor: pointer;
 }
-.pages .btns i{
+.pages .btns i,.varity .var1 i,.varity .var3 i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
     font-size: 2.2rem;
-    color :orangered;
+    color :orange;
+    background-color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+.pages .btns i:hover,.varity .var1 i:hover,.varity .var3 i:hover{
+    background-color: orange;
+    color:white;
+}
+.slideFade {
+  animation: slideFade 0.3s ease forwards;
+}
 
+@keyframes slideFade {
+  from {
+      opacity: 0; 
+    }
+  to  { 
+      opacity: 1; 
+   }
 }
 .container2 .Boxs3{
     background-color: rgb(43, 163, 219);
+}
+.Boxs3 .region{
+    display: grid;
+    grid-template-rows: 140px 1fr;
+    gap: 6px;
+}
+.Boxs3 .region .title{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:5px;
+    width: 100%;
+}
+.Boxs3 .region .title .span2{
+    width:100%;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(130px, 1fr));
+    gap:15px;
+} 
+.Boxs3 .region .title .span2 .packName{
+    padding:10px;
+    border: 1px solid rgba(189, 187, 187, 0.706);
+    font-size: 1.2rem;
+    font-family: "Enriqueta", serif;
+    color:rgb(88, 86, 86);
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.Boxs3 .region .packs{
+    background:linear-gradient(40deg,rgb(178, 178, 1) 40%,rgb(235, 216, 8),rgb(255, 234, 0)) ;
 }
